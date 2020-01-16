@@ -1,3 +1,145 @@
-h1 {
-    background-color: aqua;
-}
+html {
+    font-family: arial, helvetica, sans-serif;
+    line-height: 1;
+  }
+  
+  h1 {
+    margin-left: 10px;
+  }
+  h2 {
+    margin-left: 10px;
+  }
+  p {
+    font-size: 14px;
+    margin-left: 10px;
+  }
+  
+  
+  body {
+    background-color: #ffffff;
+  }
+  
+  #overall {
+    position: relative;
+    width: 776px;
+    background-color: #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  #head {
+    position: relative;
+    height: 226px;
+    margin-bottom: 46px;
+    background-image: url("lasse1.jpg"); 
+    background-image: si ;
+    z-index: 1;
+  }
+  
+  
+  #headblock {
+    position:absolute;
+    background-color: yellow;
+    width: 306px;
+    height: 50px;
+    z-index: 2;
+    margin-left: 30px;
+    margin-top: 130px;
+  }
+  
+  
+  #p1 {
+    text-align: center;
+  
+  }
+  
+  #main {
+  
+  }
+  
+  #left {
+    width: 500px;
+    float: left;
+  
+  
+  
+  }
+  
+  #right {
+    width: 200px;
+    height: 40px;
+    float: right;
+  }
+  
+  
+  #column1 {
+    width: 200px;
+    height: 285px;
+    font-size: 18px;
+    color: #FFFFFF;
+    background: #6A0000;
+  
+  
+  }
+  
+  #column2 {
+    width: 200px;
+    height: 170px;
+    color: #FFFFFF;
+    background: #43ADAF;
+  }
+  
+  #image_text {
+    width: 174px;
+    height: 167px;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  
+  #button {
+    position: absolute;
+    width: 82px;
+    height: 22px;
+    color: #FFFFFF;
+    background: yellow;
+    margin-left: 30px;
+    margin-top: 50px;
+    border-radius: 6px;
+  
+  
+  }
+  
+  #superbutton {
+    color: black;
+    text-align: center;
+    top: px;
+  
+  
+  }
+  
+  #footerleft {
+    width: 300px;
+    height: 300px;
+    float: left;
+    margin-top: 163px;
+  }
+  
+  #footerright {
+    width: 300px;
+    height: 300px;
+    float: right;
+    margin-top: 163px;
+  }
+  
+  #p_footer {
+  
+  
+  }
+  
+  #footer_img {
+    width: 150px;
+    height: 100px;
+    display: flex-end;
+  }
