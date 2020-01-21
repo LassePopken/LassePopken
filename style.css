@@ -9,20 +9,20 @@ html {
   h2 {
     margin-left: 10px;
   }
+  
   p {
-    font-size: 14px;
+    font-size: 17px;
     margin-left: 10px;
   }
   
-  
-  body {
+  #body {
     background-color: #ffffff;
   }
   
   #overall {
     position: relative;
     width: 776px;
-    background-color: #ffffff;
+    background-color: #e5ffd0;
     margin-left: auto;
     margin-right: auto;
   }
@@ -31,15 +31,22 @@ html {
     position: relative;
     height: 226px;
     margin-bottom: 46px;
-    background-image: url("lasse1.jpg"); 
-    background-image: si ;
     z-index: 1;
+   
   }
   
+  #image_header {
+    position: relative;
+    height: 200px;
+    width:200px;
+    float:right;
+    margin-top:25px;
+    margin-right: 50px; ;
+  }
   
   #headblock {
     position:absolute;
-    background-color: yellow;
+    background-color: rgb(247, 174, 222);
     width: 306px;
     height: 50px;
     z-index: 2;
